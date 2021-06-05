@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,300;1,400&display=swap");
 body {
   font-family: "Lato", sans-serif;
-  background-color: aqua;
+  background-color: rgb(245, 248, 248);
   margin: 0;
   padding: 0;
 }
@@ -21,4 +21,28 @@ header {
   width: 8rem;
   height: 5rem;
   margin-left: 5rem;
+}
+.border {
+  display: flex;
+}
+#border-bar {
+  background-color: rgba(243, 241, 237, 0.774);
+  width: 30%;
+}
+.form-label {
+  margin-left: 5.5rem;
+}
+#email,
+#name {
+  width: 15rem;
+  height: 1.2rem;
+}
+#adreess {
+  width: 15rem;
+  height: 4rem;
+}
+.customer {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0;
 }
