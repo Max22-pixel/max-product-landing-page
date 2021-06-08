@@ -4,18 +4,29 @@ body {
   background-color: rgb(245, 248, 248);
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
 header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
   align-items: center;
+  background-color: black;
+}
+hr {
+  margin: 0;
+  background-color: rgb(251, 255, 0);
 }
 .nav-link {
-  margin: 0 2rem;
+  margin: 0 0.8rem;
 }
 #nav-bar {
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 #header-img {
   width: 8rem;
@@ -24,25 +35,100 @@ header {
 }
 .border {
   display: flex;
+  flex-wrap: wrap;
+  min-height: 60vh;
 }
-#border-bar {
-  background-color: rgba(243, 241, 237, 0.774);
-  width: 30%;
+
+u {
+  color: rgb(251, 255, 0);
+}
+span {
+  color: red;
+}
+h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
 }
 .form-label {
-  margin-left: 5.5rem;
+  text-align: center;
 }
-#email,
-#name {
-  width: 15rem;
-  height: 1.2rem;
+#submit {
+  margin-bottom: 1rem;
+  width: 5rem;
+  height: 2rem;
+  margin-top: 0.4rem;
+  border-radius: 0.3rem;
+  margin-bottom: 6rem;
+  background-color: rgb(251, 255, 0);
 }
-#adreess {
-  width: 15rem;
-  height: 4rem;
+#email {
+  width: 25rem;
+  height: 2rem;
+  border-radius: 0.5rem;
 }
 .customer {
   text-align: center;
   font-size: 1.5rem;
-  margin-bottom: 0;
+  margin-bottom: 0.3rem;
+  margin-top: 6rem;
+  color: white;
+}
+iframe {
+  display: flex;
+  margin: auto;
+  margin-top: 8rem;
+}
+#image {
+  width: 100%;
+  margin-top: 8rem;
+}
+.card-product img {
+  width: 200px;
+  height: 150px;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 10px;
+}
+#product {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-product {
+  width: 200px;
+  margin-top: 100px;
+  background-color: yellow;
+  text-align: justify;
+  color: black;
+  border-radius: 30% 10px 10px 10px;
+}
+
+.product-details {
+  box-sizing: border-box;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.price {
+  font-weight: 800;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 30px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
 }
