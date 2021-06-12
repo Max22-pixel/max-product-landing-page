@@ -42,11 +42,16 @@ header {
   margin-left: 5rem;
 }
 .border {
-  display: flex;
-  flex-wrap: wrap;
-  min-height: 60vh;
+  margin-top: 100px;
+  text-align: center;
 }
-
+#video {
+  width: 90%;
+}
+#border-bar {
+  text-align: center;
+  color: white;
+}
 u {
   color: rgb(251, 255, 0);
 }
@@ -54,17 +59,18 @@ span {
   color: red;
 }
 #betta {
-  text-align: center;
+  color: white;
+  margin-bottom: 0;
 }
-h2 {
+/* h2 {
   text-align: center;
   margin-left: 2rem;
   font-size: 2rem;
   color: white;
-}
-.form-label {
+} */
+/* .form-label {
   text-align: center;
-}
+} */
 #submit {
   margin-bottom: 1rem;
   width: 5rem;
@@ -75,7 +81,7 @@ h2 {
   background-color: rgb(251, 255, 0);
 }
 #email {
-  width: 25rem;
+  width: 20rem;
   height: 2rem;
   border-radius: 0.5rem;
 }
@@ -89,7 +95,7 @@ h2 {
 iframe {
   display: flex;
   margin: auto;
-  margin-top: 8rem;
+  margin-top: 2rem;
 }
 #image {
   width: 100%;
@@ -150,6 +156,7 @@ button:hover {
   margin: 5px 5px;
   cursor: pointer;
 }
+
 @media (max-width: 500px) {
   #icon {
     display: block;
@@ -164,6 +171,16 @@ button:hover {
     flex-direction: column;
     align-items: center;
     transition: 0.2s;
+  }
+  #header-img {
+    margin-left: 0.5rem;
+    width: 7rem;
+    height: 4rem;
+  }
+  #email {
+    width: 15rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
   }
   .active {
     right: 0;
